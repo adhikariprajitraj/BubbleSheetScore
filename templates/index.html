@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Answer Sheet Processing</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Answer Sheet Processing</h1>
+    <form action="/process" method="POST" enctype="multipart/form-data">
+        <label for="answer_sheet">Upload Answer Sheet (PDF):</label>
+        <input type="file" name="answer_sheet" id="answer_sheet" accept=".pdf" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
